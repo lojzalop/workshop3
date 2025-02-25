@@ -1,5 +1,5 @@
 image:
-  tag: "4.0"
+  tag: "5.0"
 
 replicaCount: 1
 
@@ -7,10 +7,10 @@ ingress:
   name: exprm-k8s-exprm1
   host: mdvorak.exprm.gopay.com
 
-#nodeSelector:
-#  role-app: app
+nodeSelector:
+  role-app: app
 
-#resources:
-#  requests:
-#    cpu: 10m
-#    memory: 4Gi
+# resources:
+#   requests:
+#     cpu: 10m
+#     memory: 4Gi
