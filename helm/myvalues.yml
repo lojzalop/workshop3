@@ -10,7 +10,7 @@ ingress:
 nodeSelector:
   role-app: app
 
-resources:
-  requests:
-    cpu: 10m
-    memory: 2Gi
+# resources:
+#   requests:
+#     cpu: 10m
+#     memory: 2Gi
